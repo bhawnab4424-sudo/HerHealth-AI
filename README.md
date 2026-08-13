@@ -75,6 +75,7 @@ HerHealth-AI/
 ```bash
 git clone https://github.com/bhawna4424-sudo/HerHealth-AI.git
 cd HerHealth-AI
+```
 
 ### 2. Install Dependencies
 
