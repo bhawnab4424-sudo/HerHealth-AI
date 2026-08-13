@@ -63,6 +63,8 @@ HerHealth-AI/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
 
 
 
@@ -76,72 +78,38 @@ cd HerHealth-AI
 
 ### 2. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Add Your Gemini API Key
 
-Windows Command Prompt:
+Set your Gemini API key as an environment variable.
+
+**Windows Command Prompt:**
+
+```cmd
 set GEMINI_API_KEY=your_api_key_here
+```
 
-Windows PowerShell:
+**Windows PowerShell:**
+
+```powershell
 $env:GEMINI_API_KEY="your_api_key_here"
+```
 
-Linux / macOS:
+**Linux / macOS:**
+
+```bash
 export GEMINI_API_KEY="your_api_key_here"
+```
+
+⚠️ **Never upload your actual Gemini API key to GitHub.**
 
 ### 4. Run the Application
 
+```bash
 python app.py
+```
 
 The Gradio application will start and provide a local web interface.
-
-## 🔐 Security
-
-The Gemini API key is stored as an environment variable instead of being written directly inside the source code.
-
-For the deployed version, the API key is stored securely using Render Environment Variables.
-
-**Never commit API keys, passwords, or other secrets to GitHub.**
-
-## ⚠️ Medical Disclaimer
-
-HerHealth AI is an educational project and is not a medical diagnosis or treatment tool.
-
-The information provided by the application should not be considered professional medical advice.
-
-For medical concerns, users should consult a qualified healthcare professional.
-
-## 🎯 Learning Objectives
-
-- Python programming
-- Generative AI
-- Google Gemini API integration
-- Prompt engineering
-- Date calculations
-- Gradio UI development
-- Environment variables
-- GitHub version control
-- Cloud deployment
-
-## 🚀 Future Scope
-
-- User accounts and personalized profiles
-- Period history and cycle tracking
-- More wellness calculators
-- Improved UI/UX
-- Database integration
-- Additional AI-powered educational features
-- Mobile-friendly design
-- Multilingual support
-- Voice-based interaction
-- Medical report analysis
-
-## 👩‍💻 Author
-
-**Bhawna Bhardwaj**
-
-Student | AI & Data Analytics Enthusiast
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
